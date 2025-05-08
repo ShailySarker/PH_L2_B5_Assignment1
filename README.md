@@ -43,17 +43,17 @@ Example:
 
 type FrontendDeveloper = {
     skills: string[];
-    role1: "Frontend Developer"
+    role1: "Frontend Developer";
 };
 type BackendDeveloper = {
     skills: string[];
-    role2: "Backend Developer"
+    role2: "Backend Developer";
 };
 
-type FullStackDeveloper = FrontendDeveloper & BackendDeveloper;
+type ProDeveloper = FrontendDeveloper & BackendDeveloper;
 
-const fullStackDeveloper: FullStackDeveloper = {
-    skills: ["HTML", "CSS", "ReactJS", "NextJS", "Redux" "ExpressJS", "NodeJS", "MongoDB", "Mongoose"],
+const proDeveloper: ProDeveloper = {
+    skills: ["HTML", "CSS", "ReactJS", "NextJS", "Context API", "Redux" "ExpressJS", "NodeJS", "MongoDB", "Mongoose"],
     role1: "Frontend Developer",
     role2: "Backend Developer"
 };
